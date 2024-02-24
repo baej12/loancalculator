@@ -1,0 +1,22 @@
+.PageNumber {
+  background-color: #ffffff;
+  margin-right: 0.3rem;
+  border-radius: 15%;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border: 2px solid var(--lightGray);
+  margin-top: 1rem;
+  padding: 0;
+  color: black;
+}
+
+.PageNumber:hover {
+  cursor: pointer;
+}
+
+.PageNumber-selected {
+  background-color: black;
+  color: white;
+  border-color: black;
+}

@@ -1,0 +1,44 @@
+.sliderContainer {
+  flex-direction: column;
+  display: center;
+  align-items: center;
+  padding: 1rem;
+  background: var(--darkPurple);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+  font-size: small;
+}
+.slider {
+  cursor: grab;
+  margin: 5px;
+}
+.money-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.money-container {
+  border-width: 0.12rem;
+  border-radius: 5rem;
+  border-style: solid;
+  color: white;
+  border-color: white;
+  background: var(--gray);
+  padding: 2px;
+}
+
+.money-container2 > div {
+  display: flex;
+  align-items: center;
+}
+.sliderValue {
+  border-radius: 5rem;
+  border-width: 0.12rem;
+  border-style: none;
+  color: white;
+  background: var(--gray);
+}
+.sliderValue:focus {
+  outline: none;
+}

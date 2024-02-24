@@ -1,0 +1,194 @@
+/* This removes the up and down arrows for umber input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.leftLab {
+  color: var(--white);
+  font-size: small;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Err {
+  font-size: x-small;
+  color: var(--white);
+}
+
+.ButtonColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.LoanComponent {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--darkPurple);
+}
+.RowInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 80%;
+}
+
+.LoanName {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
+.LoanNameinput {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--gray);
+  border-color: var(--white);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+  width: 90%;
+}
+.LoanNameErr {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--glassRed);
+  border-color: var(--red);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+  width: 90%;
+}
+
+.PrinBal {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 20%;
+}
+
+.PrinBalinput {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--gray);
+  border-color: var(--white);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+}
+.PrinBalErr {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--glassRed);
+  border-color: var(--red);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+}
+
+.InterestRate {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 10%;
+}
+
+.InterestRateinput {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--gray);
+  border-color: var(--white);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+}
+
+.InterestRateErr {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--glassRed);
+  border-color: var(--red);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+}
+
+.MinPay {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.MinPayInput {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--gray);
+  border-color: var(--white);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+}
+
+.MinPayErr {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 0.8rem;
+  color: var(--white);
+  border-style: solid;
+  background: var(--glassRed);
+  border-color: var(--red);
+  border-width: 0.12rem;
+  border-radius: 5rem;
+}
+
+.NewUpdateButton {
+  width: 25%;
+}
+
+button {
+  height: 2rem;
+  width: 100%;
+  border-radius: 5rem;
+  color: var(--white);
+  background-color: var(--blue);
+  margin-bottom: 2rem;
+  cursor: pointer;
+}

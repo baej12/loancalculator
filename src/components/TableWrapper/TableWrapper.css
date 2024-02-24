@@ -1,0 +1,79 @@
+.Table {
+  background-color: #ffffff;
+  border: 1.5px solid var(--lightGray);
+  border-radius: 8px;
+}
+
+.TableTitle {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.TopHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1.5px solid var(--lightGray);
+  padding: 1rem;
+}
+
+.Length {
+  color: var(--teal);
+  border: 1px solid var(--white);
+  background-color: var(--lightTeal);
+  border-radius: 10%;
+  font-size: smaller;
+}
+
+.TableAndPage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Rows {
+  border-bottom: 2px solid var(--white);
+}
+
+.GenericTable {
+  width: 80%;
+}
+
+.ColumnHeaders {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  background-color: #ffffff;
+  border-bottom: 2px solid var(--white);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.Pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.Five {
+  width: 16.6%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Four {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+}
